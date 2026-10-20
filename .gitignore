@@ -1,12 +1,17 @@
+
 .venv/
 __pycache__/
 *.py[cod]
-data/raw/*.csv
-data/processed/*.csv
+
+# Model files
 models/*.joblib
 models/*.csv
 models/*.json
+
+# Report figures
 reports/figures/*.png
+
+# Keep otherwise-empty directories in Git
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !models/.gitkeep
