@@ -1,0 +1,71 @@
+{
+  "source_file": "cardekho_dataset.csv",
+  "rows_before_cleaning": 15411,
+  "columns_mapped": {
+    "selling_price": "selling_price",
+    "car_age": "vehicle_age",
+    "km_driven": "km_driven",
+    "fuel": "fuel_type",
+    "seller_type": "seller_type",
+    "transmission": "transmission_type",
+    "mileage": "mileage",
+    "engine": "engine",
+    "max_power": "max_power",
+    "seats": "seats",
+    "brand": "brand",
+    "name": "car_name"
+  },
+  "missing_values_before": {
+    "Unnamed: 0": 0,
+    "name": 0,
+    "brand": 0,
+    "model": 0,
+    "car_age": 0,
+    "km_driven": 0,
+    "seller_type": 0,
+    "fuel": 0,
+    "transmission": 0,
+    "mileage": 0,
+    "engine": 0,
+    "max_power": 0,
+    "seats": 0,
+    "selling_price": 0
+  },
+  "duplicate_rows": 0,
+  "removed_invalid_target": 0,
+  "removed_invalid_km": 0,
+  "removed_implausible_age": 0,
+  "rows_after_cleaning": 15411,
+  "missing_values_after": {
+    "Unnamed: 0": 0,
+    "name": 0,
+    "brand": 0,
+    "model": 0,
+    "car_age": 0,
+    "km_driven": 0,
+    "seller_type": 0,
+    "fuel": 0,
+    "transmission": 0,
+    "mileage": 0,
+    "engine": 0,
+    "max_power": 0,
+    "seats": 0,
+    "selling_price": 0
+  },
+  "outlier_policy": "No automatic statistical outlier removal; legitimate expensive vehicles are retained.",
+  "reference_year": 2026,
+  "numeric_features": [
+    "car_age",
+    "km_driven",
+    "mileage",
+    "engine",
+    "max_power",
+    "seats"
+  ],
+  "categorical_features": [
+    "fuel",
+    "seller_type",
+    "transmission",
+    "brand"
+  ]
+}
